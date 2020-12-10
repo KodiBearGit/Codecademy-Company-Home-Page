@@ -4,6 +4,7 @@ body {
   font-size: 16px;
   font-family: "Roboto", "Arial", sans-serif;
   background-color: coral;
+  margin: 0;
 }
 
 
@@ -12,7 +13,10 @@ body {
 header {
   width: 100%;
   margin: 0;
+  border-bottom: 1px solid black;
+  background-color: chocolate;
 }
+
 #logo {
   background-image: url("../images/bricks-xavi-cabrera-kn-UmDZQDjM-unsplash.jpg");
   height: 6rem;
@@ -26,7 +30,12 @@ header h1 {
   font-family: "Ranchers", "Arial", sans-serif;
   text-align: center;
   color: rgb(255, 255, 255);
+  margin: 0;
   
+}
+
+header ul {
+  margin: 0;
 }
 
 .nav {
@@ -38,6 +47,11 @@ header h1 {
 .nav li {
   font-size: 2rem;
   list-style-type: none;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: black;
 }
 /* main */
 

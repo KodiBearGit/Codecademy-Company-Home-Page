@@ -95,12 +95,17 @@ main {
 .project {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .gallery-image {
   display: flex;
   flex-wrap: wrap;
   width: 30%;
+  margin: 2px;
+  justify-content: center;
+  padding: 10px 5px;
+  background-color: darkkhaki;
 }
 
 .gallery-image img {
@@ -109,6 +114,10 @@ main {
   object-fit: cover;
   padding: 2px;
   max-height: 200px;
+}
+
+figcaption {
+  font-style: italic;
 }
 /* team */
 

@@ -93,6 +93,7 @@ main {
 #projects {
   background-color: cornsilk;
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .project {
@@ -129,6 +130,12 @@ figcaption {
   padding-top: 20px;
 }
 
+#team  h2 {
+  background-color: rgb(60, 133, 51);
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 .the-team {
   display: flex;
   flex-wrap: wrap;
@@ -154,3 +161,11 @@ figcaption {
 }
 
 /* footer */
+
+footer {
+  position: relative;
+  top: 10rem;
+  background-color: chocolate;
+  border-top: 1px solid black;
+}
+

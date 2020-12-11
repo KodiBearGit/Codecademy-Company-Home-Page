@@ -7,7 +7,9 @@ body {
   margin: 0;
 }
 
-
+p {
+  line-height: 1.5rem;
+}
 
 /* header */
 header {
@@ -18,10 +20,13 @@ header {
   position: fixed;
   top: 0px;
   height: 8rem;
+  z-index: 5;
 }
 
 #logo {
   background-image: url("../images/bricks-xavi-cabrera-kn-UmDZQDjM-unsplash.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
   height: 6rem;
   display: flex;
   justify-content: center;
@@ -64,6 +69,22 @@ main {
   top: 8rem;
 }
 
+/* mission */
+#mission {
+  text-align: center;
+}
+
+#mission p {
+  padding: 0px 10%;
+  font-style: italic;
+  font-size: 1.25rem;
+}
+
+/* projects */
+#projects {
+
+}
+/* team */
 
 
 /* footer */

@@ -27,7 +27,7 @@ header {
   background-color: chocolate;
   position: fixed;
   top: 0px;
-  height: 8rem;
+  height: 10rem;
   z-index: 5;
 }
 
@@ -35,8 +35,8 @@ header {
   background-image: url("../images/bricks-xavi-cabrera-kn-UmDZQDjM-unsplash.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
-  height: 6rem;
-  display: flex;
+  height: 8rem;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
 }
@@ -47,7 +47,10 @@ header h1 {
   letter-spacing: 5px;
   color: rgb(255, 255, 255);
   margin: 0;
-  
+}
+
+header h2 {
+ color: rgb(255, 255, 255)
 }
 
 header ul {
@@ -73,7 +76,7 @@ header ul {
 
 main {
   position: relative;
-  top: 8rem;
+  top: 10rem;
 }
 
 /* mission */
@@ -101,7 +104,7 @@ main {
 .gallery-image {
   display: flex;
   flex-wrap: wrap;
-  width: 30%;
+  width: 300px;
   margin: 2px;
   justify-content: center;
   padding: 10px 5px;
@@ -121,5 +124,33 @@ figcaption {
 }
 /* team */
 
+#team {
+  background-color: rgb(181, 237, 241);
+  padding-top: 20px;
+}
+
+.the-team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.team-image {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  margin: 10px;
+  justify-content: center;
+  padding: 10px 5px;
+  background-color: rgb(60, 133, 51);
+}
+
+.team-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  padding: 2px;
+  max-height: 200px;
+}
 
 /* footer */

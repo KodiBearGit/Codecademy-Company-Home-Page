@@ -111,6 +111,7 @@ main {
   justify-content: center;
   padding: 10px 5px;
   background-color: darkkhaki;
+  flex-grow: 1;
 }
 
 .gallery-image img {
@@ -151,6 +152,7 @@ figcaption {
   justify-content: center;
   padding: 10px 5px;
   background-color: rgb(60, 133, 51);
+  flex-grow: 2;
 }
 
 .team-image img {
